@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- to change the value of something in html (purpose) -->
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<p id="firstp">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</p>
+<input type= "text" name="" id="firstInput" >
+
+<button id="FirstButton">Submit</button>
+
+<script type="text/javascript">
+	// (the next line  find the element in the and store it in the variable to access it  )
+var paragraphOne = document.getElementById('firstp'); // to get hte information if paragraph one 
+console.log(paragraphOne.innerHTML);
+var inputOne = document.getElementById('firstInput'); 
+console.log(inputOne);
+ var buttonOne = document.getElementById('FirstButton'); // to get the element by it self beccause it doesnt contain any information
+ console.log(buttonOne);
+ buttonOne.addEventListener('click', function(argument) {// Fucntion ( when we do somthing we want it ot do something )
+	paragraphOne.innerHTML = inputOne.value; // paragraph value is changing to the input Value element. 
+	console.log(inputOne);
+	paragraphOne.style ="background-color:blue;font-size:200px"; // change the color of the submitt tesxt
+	inputOne.value=""; 
+
+ })
+
+</script>
+</body>
+</html>

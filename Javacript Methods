@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<p id="one">
+		Hi, my Name is What
+	</p>
+<button onclick="document.getElementById('one').innerHTML='lorem'">click me</button>  
+<!-- This means go get that element by id  -->
+
+
+<h1>hi</h1>
+<h1>hi</h1>
+<h1>hi</h1>
+<h1>hi</h1>
+<h1>hi</h1>
+
+<p class="one">hi</p>
+<p class="one">hi</p>
+<p class="one">hi</p>
+<p class="one">hi</p>
+<p class="one">hi</p>
+<p class="one">hi</p>
+<p class="one">hi</p>
+
+<script type="text/javascript">
+	
+var h1Tag= document.getElementByTagName('h1');
+var pTag = document.getElementByClassName('one')
+var pID = document.getElementById('one');
+
+console.log(h1Tag)
+console.log(pTag)
+console.log(pID)
+
+
+</script>
+
+
+
+
+</body>
+</html>

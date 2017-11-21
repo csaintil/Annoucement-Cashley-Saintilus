@@ -1,0 +1,191 @@
+*{margin: 0; padding:0; border:0;}
+#pic1 {
+	background-image: url("lee2.jpg");
+     padding-bottom: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;	  
+    z-index: -1; 
+    }
+   /* h1 {
+    	font-family: 'Lobster', cursive;
+         padding-top: 350px;
+         font-size: 105px;
+         text-align: left;
+         color:red;
+
+    }*/
+    h2 {
+        color: red;
+        text-align: center;
+        font-size: 90px;
+        padding-top: 100px;
+    }
+
+
+/*Begining of nav bar*/
+
+ li a{
+    display:inline-block;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+   }
+   .navb {
+    height: 60px;
+    font-family: arial;
+
+   }
+
+
+.content{
+    display:none;
+    position:fixed;
+    background-color:#f9f9f9;
+    min-width:260px;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 20px;
+   }
+   .content a{
+    color:red;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:center;
+    border-radius: 50px;
+    font-family: 'Lobster', cursive;
+
+   }
+   .navb a:hover{
+    background-color:black;
+    opacity: 0.5;
+   }
+   .navb:hover .content{
+    display:block;
+   }
+
+   nav ul {
+  display: flex;
+  list-style: none;
+
+}
+nav li {
+
+  background: url("dragon.jpg");
+  border-radius: 5px;
+  flex-grow: 1;
+  margin-right: 20px;
+  transition: flex-grow .6s;
+  background-size: cover;
+
+}
+
+nav li:hover {
+  flex-grow: 2;
+}
+
+nav a {
+  font-size: 20px;
+  display: block;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+
+   -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+
+}
+   /*end of the nav bar*/
+   /*Start of pic 2*/
+   #pic2 {
+  background-image: url("bruce2.jpg");
+   padding-bottom: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    z-index: -1;
+    background-attachment: fixed;
+    
+   }
+   #syp {
+    color: white ;
+    text-align: right;
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: 25px;
+   }
+
+   /*Start of sect 3*/
+   #pics3 {
+   
+    background-color: black;
+
+     }
+
+   #gal1{
+    float: right;
+    margin-left: 20px;
+   }
+#gal2 {
+  float: left;
+  margin-right: 20px;
+}
+
+  #gl4 {
+    padding-top:300px;
+    float: right;
+  }
+ 
+ /*Part 4*/
+ #vid {
+  background-image: url("dragon.jpg");
+  background-attachment: fixed;
+ }
+ #Cast {
+  /*background-image: url();*/
+  z-index: -1;
+  background-size: cover;
+
+ }
+ table {
+    border-collapse: collapse;
+    width: 80%;
+    color: white;
+
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+body{
+  background: black;
+}
+/*Last PArt*/
+#lastPart {
+  background:url('BL3.jpg');
+}
+#buy {
+ font-size: 30px;
+ border-radius: 100px;
+ background-color: white;
+ color: red;
+ text-decoration: none;
+}
+#buy:hover{
+ flex-grow: 2;
+ background-color: black;
+ 
+}
+#foot {
+  color: white;
+}
